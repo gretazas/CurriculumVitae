@@ -1,60 +1,114 @@
-.flower {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100px;
-    position: relative;
-    border: 2px solid black;
+.container {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 600px;
+  margin: 15rem;
+  border: 2px solid black;
+
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+  .flower {
+      margin: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      width: 100px;
+      position: relative;
+    }
+    
+    .center {
+      position: absolute;
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+      border: 1px solid black;
+    }
+    
+    .petals {
+      position: absolute;
+      top: 36px;
+      left: 28px;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      transform: rotate(45deg);
+      border: 1px solid black;
+    }
+    
+    .petals:hover {
+      background-color: gray;
+    }
+
+    .petals:nth-of-type(1) {
+      top: -10px;
+      left: 40px;
+    }
+    
+    .petals:nth-of-type(2) {
+      top: 54px;
+      left: 28px;
+    }
+    
+    .petals:nth-of-type(3) {
+      top: 62px;
+      left: 44px;
+    }
+    
+    .petals:nth-of-type(4) {
+      top: 36px;
+      left: 60px;
+    }
+    
+    .petals:nth-of-type(5) {
+      top: 54px;
+      left: 60px;
+    }
+    
+    .petals:nth-of-type(6) {
+      top: 26px;
+      left: 44px;
+    }
+
+    .stemp {
+      position: absolute;
+      height: 35px;
+      width: 18px;
+      /* border-radius: 50%; */
+      border-right: 2px solid black;
+      transform: rotate(135deg);
+      top: 66px;
+      left: 75px;
+    }
+    
+    .stemp_1 {
+        position: absolute;
+        height: 35px;
+        width: 18px;
+        border-right: 2px solid black;
+        transform: rotate(31deg);
+        top: 66px;
+        left: 14px;
+    }
+
+    .stemp_2 {
+      position: absolute;
+      height: 35px;
+      width: 18px;
+      border-right: 2px solid black;
+      transform: rotate(28deg);
+      top: -8px;
+      left: 53px;
   }
   
-  .center {
-    position: absolute;
-    height: 18px;
-    width: 18px;
-    border-radius: 50%;
-    border: 1px solid black;
+  .title {
+    position:absolute;
+    top: -12px;
+    left: 17px;
   }
-  
-  .petals {
-    position: absolute;
-    top: 36px;
-    left: 28px;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    border: 1px solid black;
-  }
-  
-  .petals:nth-of-type(1) {
-    top: -10px;
-    left: 40px;
-  }
-  
-  .petals:nth-of-type(2) {
-    top: 54px;
-    left: 28px;
-  }
-  
-  .petals:nth-of-type(3) {
-    top: 62px;
-    left: 44px;
-  }
-  
-  .petals:nth-of-type(4) {
-    top: 36px;
-    left: 60px;
-  }
-  
-  .petals:nth-of-type(5) {
-    top: 54px;
-    left: 60px;
-  }
-  
-  .petals:nth-of-type(6) {
-    top: 26px;
-    left: 44px;
-  }
-  
-  
