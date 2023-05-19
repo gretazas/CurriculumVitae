@@ -1,9 +1,19 @@
+html {
+  height: 100%;
+}
+
+span {
+  position: absolute;
+  top: 115px;
+  left: 265px;
+}
+
 .container {
   display: flex;
   justify-content: center;
   width: 900px;
-  height: 600px;
-  margin: 15rem;
+  height: 700px;
+  margin: 165px;
   border: 2px solid black;
 
 }
@@ -15,12 +25,14 @@
 
   .flower {
       margin: 55px;
+      padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100px;
       width: 100px;
       position: relative;
+      border-top: 2px solid black;
     }
     
     .center {
@@ -29,6 +41,7 @@
       width: 18px;
       border-radius: 50%;
       border: 1px solid black;
+      background-color: white;
     }
     
     .petals {
@@ -40,9 +53,10 @@
       border-radius: 50%;
       transform: rotate(45deg);
       border: 1px solid black;
+      background-color: white;
     }
     
-    .petals:hover {
+    .flower:hover {
       background-color: gray;
     }
 
@@ -75,40 +89,9 @@
       top: 26px;
       left: 44px;
     }
-
-    .stemp {
-      position: absolute;
-      height: 35px;
-      width: 18px;
-      /* border-radius: 50%; */
-      border-right: 2px solid black;
-      transform: rotate(135deg);
-      top: 66px;
-      left: 75px;
-    }
-    
-    .stemp_1 {
-        position: absolute;
-        height: 35px;
-        width: 18px;
-        border-right: 2px solid black;
-        transform: rotate(31deg);
-        top: 66px;
-        left: 14px;
-    }
-
-    .stemp_2 {
-      position: absolute;
-      height: 35px;
-      width: 18px;
-      border-right: 2px solid black;
-      transform: rotate(28deg);
-      top: -8px;
-      left: 53px;
-  }
   
   .title {
     position:absolute;
-    top: -12px;
-    left: 17px;
+    top: -25px;
+    left: 2px;
   }
