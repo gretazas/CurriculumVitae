@@ -2,6 +2,7 @@ html {
   height: 100%;
 }
 
+/* Name and surname */
 span {
   position: absolute;
   margin: auto;
@@ -9,6 +10,7 @@ span {
   left: 265px;
 }
 
+/* Main container */
 .container {
   display: flex;
   justify-content: center;
@@ -19,11 +21,20 @@ span {
 
 }
 
+/* Row of 3 divs */
 .block {
   display: flex;
   justify-content: center;
 }
 
+/* Title`s for each box settings */
+  .title {
+    position:absolute;
+    top: -25px;
+    left: 2px;
+  }
+
+  /* Fower decoration in each div */
   .flower {
       margin: 55px;
       padding: 20px;
@@ -103,30 +114,193 @@ span {
       left: 44px;
     }
   
-  .title {
-    position:absolute;
-    top: -25px;
-    left: 2px;
-  }
+/* Preview for GitHub of next page if click only on medium scren and bigger*/
+.target1 {
+  position: relative;
+}
 
+.previewProfile {
+  background-image: url(/media/Screenshot\ \(31\).png);
+  z-index: 1000;
+  background-size: cover;
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  top: 300px;
+  left: 550px;
+  opacity: 0;
+}
+
+/* Preview for Projects of next page if click only on medium scren and bigger*/
+.target2 {
+  position: relative;
+}
+
+.previewProjects {
+  background-image: url(/media/Screenshot\ \(31\).png);
+  z-index: 1000;
+  background-size: cover;
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  top: 535px;
+  left: 550px;
+  opacity: 0;
+}
+
+  /* Preview for GitHub of next page if click only on medium scren and bigger*/
   .target {
     position: relative;
   }
   
-  .preview {
+  .previewGit {
     background-image: url(/media/Screenshot\ \(31\).png);
     z-index: 1000;
+    background-size: cover;
     position: absolute;
     height: 150px;
     width: 180px;
-    top: 280px;
-    left: 500px;
+    top: 530px;
+    left: 950px;
     opacity: 0;
   }
   
+  /* Preview for Life story of next page if click only on medium scren and bigger*/
+.target3 {
+  position: relative;
+}
+
+.previewStory {
+  background-image: url(/media/Screenshot\ \(31\).png);
+  z-index: 1000;
+  background-size: cover;
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  top: 760px;
+  left: 1150px;
+  opacity: 0;
+}
+
+  @media screen and (max-width: 1600px) {
+    .previewGit {
+      top: 530px;
+      left: 840px;
+    }
+
+    .previewProfile {
+      top: 295px;
+      left: 435px;
+    }
+
+    .previewProjects {
+      top: 535px;
+      left: 435px;
+    }
+
+    .previewStory {
+      top: 760px;
+      left: 910px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .previewGit {
+      top: 530px;
+      left: 670px;
+    }
+
+    .previewProfile {
+      top: 290px;
+      left: 310px;
+    }
+
+    .previewProjects {
+      top: 535px;
+      left: 310px;
+    }
+
+    .previewStory {
+      top: 760px;
+      left: 824px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1200px) {
+    .previewGit {
+      top: 515px;
+      left: 625px;
+    }
+
+    .previewProfile {
+      top: 305px;
+      left: 255px;
+    }
+
+    .previewProjects {
+      top: 535px;
+      left: 265px;
+    }
+
+    .previewStory {
+      top: 760px;
+      left: 645px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .previewGit {
+      top: 500px;
+      left: 500px;
+    }
+
+    .previewProfile {
+      top: 300px;
+      left: 200px;
+    }
+
+    .previewProjects {
+      top: 530px;
+      left: 335px;
+    }
+
+    .previewStory {
+      top: 760px;
+      left: 455px;
+    }
+  }
+
   @media screen and (max-width: 767px) {
     .container {
-        display: inline-block;
-        height: 100%;
+      display: inline-block;
+      height: 100%;
+      margin-left: 30px;
+      font-size: 2.0rem;
+    }
+
+    span {
+      top: 100px;
+      left: 20px;
+    }
+
+    h1 {
+      margin: 30px;
+    }
+
+    .previewGit {
+      display: none;
+    }
+
+    .previewProfile {
+      display: none;
+    }
+
+    .previewProjects {
+      display: none;
+    }
+
+    .previewStory {
+      display: none;
     }
   }
