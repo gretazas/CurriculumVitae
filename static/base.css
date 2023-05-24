@@ -120,7 +120,7 @@ span {
 }
 
 .previewProfile {
-  background-image: url(/media/Screenshot\ \(31\).png);
+  background-image: url("/media/Screenshot\(31\).png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
@@ -137,7 +137,7 @@ span {
 }
 
 .previewProjects {
-  background-image: url(/media/Screenshot\ \(31\).png);
+  background-image: url("/media/Screenshot\(31\).png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
@@ -154,7 +154,7 @@ span {
   }
   
   .previewGit {
-    background-image: url(/media/Screenshot\ \(31\).png);
+    background-image: url("/media/Screenshot\(31\).png");
     z-index: 1000;
     background-size: cover;
     position: absolute;
@@ -171,7 +171,7 @@ span {
 }
 
 .previewStory {
-  background-image: url(/media/Screenshot\ \(31\).png);
+  background-image: url("/media/Screenshot\(31\).png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
@@ -262,7 +262,7 @@ span {
 
     .previewProjects {
       top: 530px;
-      left: 335px;
+      left: 200px;
     }
 
     .previewStory {
