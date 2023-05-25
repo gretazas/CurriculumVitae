@@ -120,7 +120,7 @@ span {
 }
 
 .previewProfile {
-  background-image: url("/media/profile.png");
+  background-image: url("../media/profile.png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
@@ -137,7 +137,7 @@ span {
 }
 
 .previewProjects {
-  background-image: url("/media/Github.png");
+  background-image: url("../media/Github.png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
@@ -154,7 +154,7 @@ span {
   }
   
   .previewGit {
-    background-image: url("/media/Github.png");
+    background-image: url("../media/Github.png");
     z-index: 1000;
     background-size: cover;
     position: absolute;
@@ -171,7 +171,7 @@ span {
 }
 
 .previewStory {
-  background-image: url("/media/Github.png");
+  background-image: url("../media/Github.png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
