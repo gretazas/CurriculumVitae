@@ -137,7 +137,7 @@ span {
 }
 
 .previewProjects {
-  background-image: url("../media/Github.png");
+  background-image: url("../media/projects.png");
   z-index: 1000;
   background-size: cover;
   position: absolute;
